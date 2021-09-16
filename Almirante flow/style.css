@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'bold';
+    src: url('Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('Montserrat-Medium.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #131c25;
+}
+
+header {
+    background-color: black;
+}
+
+header > img {
+    height: 80px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    font-family: 'medium';
+}
+
+#navega > #social {
+    display: flex;
+}
+
+img#instagram {
+    height: 20px;
+    margin-left: 750px;
+    margin-top: 60px;
+}
+
+img#twitter {
+    height: 20px;
+}
+
+#navega {
+    margin-left: 90px;
+    padding-bottom: 20px;
+}
+
+#navega > a.vega {
+    font-family: 'medium';
+    font-size: 16px;
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+#navega > a:hover {
+    color: #db7b0c;
+    transition-duration: 0.5s;
+}
+
+#wallpaper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    font-family: 'medium';
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+main > p#one {
+    font-size: 16px;
+}
+
+main > h1 {
+    font-family: 'bold';
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+main > #divirta {
+    color: rgb(179, 174, 174);
+    margin-top: 20px;
+}
+
+#episódios > h2 {
+    font-family: 'bold';
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+a > img {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 50px;
+    box-shadow: black;
+}
+
+footer > p > span {
+    color: #FFB705;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
+
+footer > address {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111111;
+}
+
+@media (max-width: 700px) {
+    header > a > img#instagram {
+        display: none;
+    }
+
+    header > a > img#twitter {
+        display: none;
+    }
+
+    #wallpaper > img {
+        height: 80px;
+    }
+
+    #episódios > a > img {
+        height: 350px;
+    }
+
+    address {
+        margin-top: 20px;
+    }
+}
